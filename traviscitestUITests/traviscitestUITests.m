@@ -43,7 +43,7 @@
     [app.textFields[@"Usuário"] typeText:@"Thiago"];
     [entrarButton tap];
     
-    XCUIElement *senhaSecureTextField = app.secureTextFields[@"Senha1"];
+    XCUIElement *senhaSecureTextField = app.secureTextFields[@"Senha"];
     [senhaSecureTextField tap];
     [senhaSecureTextField typeText:@"12345"];
     [entrarButton tap];
