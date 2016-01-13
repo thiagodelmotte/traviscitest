@@ -32,25 +32,25 @@
     [super tearDown];
 }
 
-//- (void)testExample {
-//    // Use recording to get started writing UI tests.
-//    // Use XCTAssert and related functions to verify your tests produce the correct results.
-//    
-//    
-//    XCUIApplication *app = [[XCUIApplication alloc] init];
-//    XCUIElement *entrarButton = app.buttons[@"ENTRAR"];
-//    [entrarButton tap];
-//    [app.textFields[@"Usuário"] typeText:@"Thiago"];
-//    [entrarButton tap];
-//    
-//    XCUIElement *senhaSecureTextField = app.secureTextFields[@"Senha"];
-//    [senhaSecureTextField tap];
-//    [senhaSecureTextField typeText:@"12345"];
-//    [entrarButton tap];
-//    
-//    [app.buttons[@"SAIR"] tap];
-//    
-//    
-//}
+- (void)testExample {
+    // Use recording to get started writing UI tests.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *entrarButton = app.buttons[@"ENTRAR"];
+    [entrarButton tap];
+    [app.textFields[@"Usuário"] typeText:@"Thiago"];
+    [entrarButton tap];
+    
+    XCUIElement *senhaSecureTextField = app.secureTextFields[@"Senha"];
+    [senhaSecureTextField tap];
+    [senhaSecureTextField typeText:@"12345"];
+    [entrarButton tap];
+    
+    [app.buttons[@"SAIR"] tap];
+    
+    
+}
 
 @end

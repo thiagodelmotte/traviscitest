@@ -21,7 +21,7 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
@@ -31,6 +31,20 @@
                BlueprintIdentifier = "FF9830B41C468AE000E00C8C"
                BuildableName = "traviscitestTests.xctest"
                BlueprintName = "traviscitestTests"
+               ReferencedContainer = "container:traviscitest.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF9830BF1C468AE000E00C8C"
+               BuildableName = "traviscitestUITests.xctest"
+               BlueprintName = "traviscitestUITests"
                ReferencedContainer = "container:traviscitest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +60,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF9830B41C468AE000E00C8C"
-               BuildableName = "traviscitestTests.xctest"
-               BlueprintName = "traviscitestTests"
+               BlueprintIdentifier = "FF9830BF1C468AE000E00C8C"
+               BuildableName = "traviscitestUITests.xctest"
+               BlueprintName = "traviscitestUITests"
                ReferencedContainer = "container:traviscitest.xcodeproj">
             </BuildableReference>
          </TestableReference>
