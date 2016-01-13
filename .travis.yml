@@ -1,2 +1,2 @@
 language: objective-c
-script: "xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' clean test | xcpretty -c && exit ${PIPESTATUS[0]}"
+script: "xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator9.2 clean test | xcpretty -c && exit ${PIPESTATUS[0]}"
