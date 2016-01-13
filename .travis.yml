@@ -1,2 +1,5 @@
 language: objective-c
-script: xctool test -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+osx_image: xcode7.2
+xcode_project: traviscitest.xcodeproj
+xcode_scheme: traviscitest
+xcode_sdk: iphonesimulator9.2
