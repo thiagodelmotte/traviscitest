@@ -32,29 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF9830B41C468AE000E00C8C"
-               BuildableName = "traviscitestTests.xctest"
-               BlueprintName = "traviscitestTests"
-               ReferencedContainer = "container:traviscitest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "FF9830BF1C468AE000E00C8C"
                BuildableName = "traviscitestUITests.xctest"
                BlueprintName = "traviscitestUITests"
-               ReferencedContainer = "container:traviscitest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF53C7A91C46DE28002DEF90"
-               BuildableName = "traviscitestUnitTest.xctest"
-               BlueprintName = "traviscitestUnitTest"
                ReferencedContainer = "container:traviscitest.xcodeproj">
             </BuildableReference>
          </TestableReference>
