@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: traviscitest.xcodeproj
+xcode_scheme: traviscitest
+xcode_sdk: iphonesimulator8.0
