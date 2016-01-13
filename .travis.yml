@@ -1,6 +1,5 @@
 language: objective-c
-script: xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator test
-# osx_image: xcode7.2
-# xcode_project: traviscitest.xcodeproj
-# xcode_scheme: traviscitest
-# xcode_sdk: iphonesimulator9.2
+osx_image: xcode7.2
+xcode_project: traviscitest.xcodeproj
+xcode_scheme: traviscitest
+xcode_sdk: iphonesimulator9.2

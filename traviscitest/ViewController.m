@@ -41,6 +41,10 @@
     
 }
 
+- (int)doMath:(int)x andY:(int)y {
+    return x + y;
+}
+
 - (void)cleanErrorMsg {
     self.errorLbl.text = @"";
 }
