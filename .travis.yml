@@ -1,5 +1,5 @@
 language: objective-c
-xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' test
+script: xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' test
 # osx_image: xcode7.2
 # xcode_project: traviscitest.xcodeproj
 # xcode_scheme: traviscitest
