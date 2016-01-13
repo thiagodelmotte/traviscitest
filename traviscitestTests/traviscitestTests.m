@@ -40,7 +40,7 @@
     
     int x = 2;
     int y = 6;
-    int r1 = 8;
+    int r1 = 9;
     
     int r = [self.vc doMath:x andY:y];
     
