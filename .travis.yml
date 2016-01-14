@@ -1,6 +1,7 @@
 language: objective-c
 osx_image: xcode7.2
-script: xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' test
-# xcode_project: traviscitest.xcodeproj
-# xcode_scheme: traviscitest
-# xcode_sdk: iphonesimulator9.2
+script: xcodebuild -project traviscitest.xcodeproj -scheme traviscitest -sdk iphonesimulator
+  -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' test
+notifications:
+  slack:
+    secure: hexcB30brqLW9jq+tGKU4s2IJvBOSbiZGzXbC6XlkT9ghanlvZNSwfCZzbIA/mEqPSmxUxIaH8XgZ0shFGu5t8bxswOwgtZw5a2w+K5jKgpeoO0Sw0yuwhBANZ67FqrnccI0999FbNwJoAM4zOSgdFeA/cBH+YZ4lgtv+IoOCoAHlOpM2M2GCS9rPGuI/nNTc95g38lZ09+Zy3F6nZs7YY69STrvZ5Bg+S1VspfbHl81ypdcK2Ezb4gsyMNNWSo8V8mnGj5EKXj80eHaTA4FJRoZYQBAEQI5V+54K1WwuLR65htpuncnDan9nekK2LYm4JZc8tr9kmAolmMSKazPt/EazsrwLv83H+JCJIxwqOXKxuZwUT6HEGUffJUUhlOQqrH+HfFfVwIbeGyBuU0rfYqGPRpr50yhhtOB4/LbkOrWHzdGjLT5ubNyecJK+246MCbMDOkHMoEu51GkQcv6KehWPo7eTFfwYOOtslTwnBPRjZXNqYA9AaR/PH63UdH54Upn+uFNXZLZ50PncZYhHe2vTOuLFDgNchh5RHVmy9o26+OBnEj9PR/iiClxjIuknpyhsizDfs7upnTPo/B1V6oVGWymX1gEWL5+icjevAWf8xaXK+jdn4HvfFE3lyYQlOB+e6ANdRos1EY15EYFlGy0JVuoGACcCV7ai5LgMTg=
